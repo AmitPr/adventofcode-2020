@@ -3,4 +3,4 @@ import math
 import collections
 
 with open(".in") as f:
-    lines = f.readlines()
+    lines = [l.strip() for l in f.readlines()]
